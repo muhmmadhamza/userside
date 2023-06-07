@@ -5,7 +5,7 @@ import axios from "axios";
 // import moment from "moment";
 
 // const API_URL =  process.env.REACT_APP_BASE_URL;
-const API_URL = "https://motareyadmin.herokuapp.com/";
+const API_URL = "https://motareyadmin.herokuapp.com/api";
 const axiosApi = axios.create({
   baseURL: API_URL,
 });
