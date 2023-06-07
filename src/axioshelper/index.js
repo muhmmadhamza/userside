@@ -4,8 +4,8 @@ import axios from "axios";
 // import jwtDecode from "jwt-decode";
 // import moment from "moment";
 
-const API_URL = process.env.REACT_APP_BASE_URL;
-
+// const API_URL =  process.env.REACT_APP_BASE_URL;
+const API_URL = "https://motareyadmin.herokuapp.com/";
 const axiosApi = axios.create({
   baseURL: API_URL,
 });
